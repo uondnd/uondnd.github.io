@@ -1,29 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UoN D&D Club</title>
+  <meta name="description" content="The University of Newcastle Dungeons & Dragons Club - Join our adventures, campaigns, and community events!">
+  <meta name="keywords" content="D&D, DnD, Dungeons and Dragons, UoN, The University of Newcastle, tabletop gaming, RPG">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/styles/styles.css">
+  <link rel="icon" href="assets/favicon.ico">
+</head>
+<body class="bg-gray-900 text-white">
+  <header class="relative text-center bg-contain bg-center bg-no-repeat h-96" style="background-image: url('assets/images/hero-image.png');">
+    <div class="absolute top-0 left-0 right-0 p-6 bg-gradient-to-b from-gray-900">
+      <nav class="flex justify-between items-center">
+        <a href="#" class="text-white font-bold text-xl">UoN D&D Club</a>
+        <ul class="hidden md:flex space-x-6">
+          <li><a href="#join" class="hover:text-gray-300">Join the Adventure</a></li>
+          <li><a href="#events" class="hover:text-gray-300">Upcoming Events</a></li>
+          <li><a href="#about" class="hover:text-gray-300">About Us</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="absolute bottom-0 left-0 right-0 p-6 pt-52 bg-gradient-to-t from-gray-900">
+      <h1 class="text-5xl font-bold">UoN D&D Club</h1>
+      <p class="text-lg mt-2">Salutations, Dungeoneers and Dragonslayers!</p>
+    </div>
+  </header>
+  
+  <main class="max-w-5xl mx-auto px-4">
+    <section class="my-16">
+      <h2 class="text-3xl font-bold text-center">Join the Adventure!</h2>
+      <p class="mt-2 text-center text-xl">Roll for initiative and join our Discord for games, memes, and chaotic energy.</p>
+      
+      <div class="flex flex-col items-center justify-center mt-8 gap-8">
+        <div class="flex flex-col md:flex-row gap-4">
+          <a href="https://discord.com/invite/6TmCW6HjVR" target="_blank" rel="noopener" class="btn bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg text-lg flex items-center justify-center">
+            <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+            Join our Discord (It's Free!)
+          </a>
+          <a href="https://clubs.getqpay.com/?s=6235" target="_blank" rel="noopener" class="btn bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg text-lg flex items-center justify-center">
+            <svg class="w-6 h-6 mr-2" fill="currentColor"><path d="M22 3c.53 0 1.039.211 1.414.586s.586.884.586 1.414v14c0 .53-.211 1.039-.586 1.414s-.884.586-1.414.586h-20c-.53 0-1.039-.211-1.414-.586s-.586-.884-.586-1.414v-14c0-.53.211-1.039.586-1.414s.884-.586 1.414-.586h20zm1 8h-22v8c0 .552.448 1 1 1h20c.552 0 1-.448 1-1v-8zm-15 5v1h-5v-1h5zm13-2v1h-3v-1h3zm-10 0v1h-8v-1h8zm-10-6v2h22v-2h-22zm22-1v-2c0-.552-.448-1-1-1h-20c-.552 0-1 .448-1 1v2h22z"/></svg>
+            Become a Member for Exclusive Events
+          </a>
+        </div>
+      </div>
+    </section>
     
-    <meta charset="utf-8">
-    <title>UoN D&D Club</title>
-    <meta name="description" content="The UoN D&D Club website">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="favicon.ico">
-
-  </head>
-  <body>
+    <div class="flex flex-col items-center justify-center mt-8 gap-8">
+      <iframe src="https://discord.com/widget?id=635654687315591168&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" class="rounded-lg shadow-lg"></iframe>
+    </div>
     
-    <h1>Salutations Dungeoneers and Dragonslayers!</h1>
-    <p>Website under construction!</p>
+    <div class="section-divider"></div>
+    
+    <section class="my-16">
+      <h2 class="text-3xl font-bold text-center">Upcoming Events</h2>
+      <p class="mt-2 text-center text-xl">Join us for our weekly adventures and special gatherings!</p>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mt-8">
+        <!-- Event Card 1 -->
+        <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg event-card">
+          <img src="assets/images/event.png" alt="Weekly D&D Session" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <span class="bg-blue-500 text-white text-xs font-bold px-2 py-1 rounded">WEEKLY</span>
+            <h3 class="text-xl font-bold mt-2">Thursday Club Nights</h3>
+            <p class="text-gray-300 mt-1">Every Thursday • 5-10pm • Treehouse, Callaghan</p>
+            <p class="mt-2">One-shots and short adventures designed for newcomers. All materials provided!</p>
+          </div>
+        </div>
 
-    <br>
+        <!-- Event Card 2 -->
+        <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg event-card">
+          <img src="assets/images/event2.png" alt="Weekly D&D Session" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <span class="bg-blue-500 text-white text-xs font-bold px-2 py-1 rounded">WEEKLY</span>
+            <h3 class="text-xl font-bold mt-2">Friday Club Nights</h3>
+            <p class="text-gray-300 mt-1">Every Friday • 5-10pm • Clubspace, Callaghan</p>
+            <p class="mt-2">A second day of one-shots and short adventures for all experience levels! All materials provided!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <div class="section-divider"></div>
+    
+    <section class="my-16">
+      <h2 class="text-3xl font-bold text-center">About Our Club</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+        <div>
+          <h3 class="text-2xl font-bold mb-4">Who We Are</h3>
+          <p class="text-lg">The University of Newcastle's Dungeons & Dragons Club is a community of tabletop RPG enthusiasts of all experience levels. Whether you're a seasoned adventurer or have never rolled a d20 in your life, our community welcomes you!</p>
+        </div>
+        
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+          <h3 class="text-2xl font-bold mb-4">For New Players</h3>
+          <p class="text-lg">Never played before? No problem! Here's how to get started:</p>
+          <ol class="list-decimal pl-5 space-y-3 mt-4 text-lg">
+            <li>Join our Discord server and introduce yourself</li>
+            <li>Attend one (or both) of our weekly club nights</li>
+            <li>Borrow our club materials - no need to buy anything!</li>
+            <li>Join one of the many beginner-friendly one-shots that we run</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <!-- <footer class="text-center py-8 border-t border-gray-700 mt-16 bg-gray-800"> -->
+    <!-- <div class="flex justify-center space-x-6"> -->
 
-    <a href="https://linktr.ee/uondnd" target="_blank" ref="nofollow">
-      <h1>Our Linktree!</h1>
-    </a>
-
-    <a href="https://www.instagram.com/uon_dnd/" target="_blank" ref="nofollow">
-      <h1>Our Instagram!</h1>
-    </a>
-
-  </body>
-</html>
-
+      <footer class="text-center py-5 border-t border-gray-700 mt-10">
+        <div class="flex justify-center space-x-4 mt-4">
+            <a href="https://www.instagram.com/uon_dnd" target="_blank" rel="noopener" class="p-3 bg-gray-800 rounded-lg hover:bg-gray-700 transition">
+                <img src="https://img.icons8.com/color/32/000000/instagram-new--v1.png" alt="Instagram"/>
+            </a>
+            <a href="https://www.facebook.com/dandduon" target="_blank" rel="noopener" class="p-3 bg-gray-800 rounded-lg hover:bg-gray-700 transition">
+                <img src="https://img.icons8.com/color/32/000000/facebook-new.png" alt="Facebook"/>
+            </a>
+        </div>
+        <!-- <p>&copy; 2025 UoN D&D Club</p> -->
+    
+        <div class="mt-4">
+            <p>&copy; 2025 UoN D&D Club</p>
+        </div>
+    </footer>
